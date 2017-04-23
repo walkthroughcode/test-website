@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WalkThroughCode</title>
+
+
+
+  <!-- Bootstrap Core CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://bootswatch.com/flatly/bootstrap.min.css">
+  <link href="slick.css" rel="stylesheet" />
+  <link href="slick-theme.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">WalkThroughCode</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid page-wrapper">
+
+
+    <section class="row section-one">
+      <div class="col-md-12">
+        <img src="https://lh3.googleusercontent.com/-NEovhOZKHnU/AAAAAAAAAAI/AAAAAAAAABU/FEBuhciOVmY/s120-p-rw-no/photo.jpg" alt="The logo for WalkThrough">
+      </div>
+    </section>
+
+
+    <section class="row section-two">
+      <div class="col-md-12">
+        <h1>About</h1>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows
+          by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+          life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli,
+          but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown
+          Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+      </div>
+    </section>
+
+
+    <section class="row section-three">
+      <div class="col-md-12">
+        <h1>Blog</h1>
+        <div class="playlists slider">
+          <div>
+            <img src="http://placehold.it/350x150">
+          </div>
+          <div>
+            <img src="http://placehold.it/350x150">
+          </div>
+          <div>
+            <img src="http://placehold.it/350x150">
+          </div>
+          <div>
+            <img src="http://placehold.it/350x150">
+          </div>
+          <div>
+            <img src="http://placehold.it/350x150">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <footer class="row footer">
+      <div class="col-md-12">
+        <h1>This is the footer</h1>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script src="slick.js"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".playlists").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+    });
+  </script>
+</body>
+
+</html>

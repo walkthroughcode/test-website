@@ -1,0 +1,26 @@
+nav.navbar {
+  margin-bottom: 0px;
+  background-color: black;
+}
+
+#helloworld {
+
+}
+
+.section-one {
+  background-color: #fff;
+}
+
+.section-two {
+  background-color: white;
+  text-align: center;
+}
+
+.section-three {
+  background-color: white;
+  text-align: center;
+}
+
+.section-four {
+  background-color: lightblue;
+}
